@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/cwqhhdxt5jgythiq?svg=true)](https://ci.appveyor.com/project/Sashkasam/for-in-dz)
 # Домашнее задание к лекции «Object, Reflection и Proxy»
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
