@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { obj, orderByProps } from "../app";
+import { obj, arr, orderByProps } from "../app";
 
 test('should return an array with sorted properties', () => {
     const expected = [
@@ -9,5 +9,6 @@ test('should return an array with sorted properties', () => {
     { key: 'defence', value: 40 },
     { key: 'health', value: 10 },
   ]; 
-  expect(orderByProps(obj,['name','level'])).toEqual(expected);
+
+  expect(orderByProps(obj,arr)).toEqual(expected);
 });

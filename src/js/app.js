@@ -1,12 +1,13 @@
 export const obj = {name: 'мечник', health: 10, level: 2, attack: 80, defence: 40};
+export const arr = ['name', 'level'];
 
 
- export function orderByProps(obj, [first, second]) {
+ export function orderByProps(obj, arr) {
     const orederedProps = [];
     const remainingProps = [];
     
     for (const element in obj) {
-        if(element===first || element === second){
+        if(arr.includes(element)){
             orederedProps.push({key:element, value: obj[element]});
         }else {
             remainingProps.push({key:element, value: obj[element]});  
